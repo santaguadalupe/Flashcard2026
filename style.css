@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-image: url("img/photo-1783020878609-ee2f05b4d3ae.avif")
+  background-image: url("img/photo-1783020878609-ee2f05b4d3ae.avif");
 }
 .cabecalho {
   background-color: #0f4275;
@@ -31,6 +31,10 @@ h1 {
 
 main {
   flex: 1;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
 
 .cartao {
