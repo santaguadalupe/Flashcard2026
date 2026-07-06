@@ -3,12 +3,14 @@
     margin: 0;
     padding: 0;
 }
+
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   background-image: url("img/photo-1781712264729-e167c4779580.avif");
 }
+
 .cabecalho {
   background-color: #0f4275;
   padding: 15px 25px;
@@ -29,7 +31,7 @@ h1 {
 
 main {
   flex: 1;
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   gap: 16px;
@@ -38,16 +40,19 @@ main {
 .cartao {
     width: 260px;
     height: 200px;
+
 }
 
 .cartao-imagem {
     width: 100%;
 }
+
 cartao-interno {
   position: relative;
   transition: transform 0.8s;
   transform-style: preserve-3d;  
 }
+
 .cartao-frente,
 .cartao-verso {
   position: absolute;
@@ -59,10 +64,14 @@ cartao-interno {
 .cartao:hover .cartao-interno {
   transform: rotateY(180deg);
 }
+
 .cartao-verso {
   transform: rotateY(180deg);
 }
 
+p{
+  color: aliceblue;
+}
 section {
   display: flex;
  padding: 20px;
@@ -71,8 +80,6 @@ section {
   justify-content: space-between;
   gap: 20px;
 }
-
-
 
 footer {
 background-color: #04aef2;
