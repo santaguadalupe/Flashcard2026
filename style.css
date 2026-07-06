@@ -1,7 +1,5 @@
 * {
-
     box-sizing: border-box;
-
     margin: 0;
     padding: 0;
 }
@@ -9,7 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-image: url("img/photo-1783020878609-ee2f05b4d3ae.avif");
+  background-image: url("img/photo-1781712264729-e167c4779580.avif");
 }
 .cabecalho {
   background-color: #0f4275;
